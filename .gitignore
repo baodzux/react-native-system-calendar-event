@@ -1,6 +1,3 @@
-# Ignore everything by default
-*
-
 # Keep main project folders
 !android/
 !ios/
