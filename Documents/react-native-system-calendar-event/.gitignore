@@ -1,0 +1,60 @@
+# Ignore everything by default
+*
+
+# Keep main project folders
+!android/
+!ios/
+!src/
+
+# Keep essential project files
+!.gitignore
+!package.json
+!package-lock.json
+!yarn.lock
+!README.md
+
+# ---------------------------
+# React Native / Node ignore
+# ---------------------------
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# Metro / Packager cache
+.expo/
+.expo-shared/
+.expo/*
+.expo-shared/*
+dist/
+build/
+
+# Android build
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# iOS build
+ios/build/
+ios/Pods/
+ios/DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

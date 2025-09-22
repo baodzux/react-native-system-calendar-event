@@ -1,0 +1,12 @@
+{
+    "name": "react-native-system-calendar-event",
+    "version": "0.1.0",
+    "main": "src/index.tsx",
+    "nativePackage": true,
+    "peerDependencies": {
+      "react-native": ">=0.60.0"
+    },
+    "keywords": ["react-native", "calendar", "event", "add", "system", "android", "ios"],
+    "author": "baodzux",
+    "license": "MIT"
+  }
