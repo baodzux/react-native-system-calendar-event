@@ -3,6 +3,10 @@
     "version": "0.1.0",
     "main": "src/index.tsx",
     "nativePackage": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/baodzux/react-native-system-calendar-event.git"
+    },
     "peerDependencies": {
       "react-native": ">=0.60.0"
     },
